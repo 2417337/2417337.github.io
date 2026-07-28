@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="2417337 Urano">
+    <meta name="keywords" content="html, css, javascript">
+
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <script src="./js/main.js" defer></script>
+    
+    <title>最終課題 星座占い</title>
+</head>
+
+<body>
+    <header>
+        <h1>★今日の星座占い★</h1>
+        <p>あなたの星座を選んで、今日の運勢を占ってみよう！</p>
+    </header>
+
+
+    <main>
+        <h2>星座を選んでください</h2>
+        
+        <button onclick="uranai(0)">おひつじ座</button>
+        <button onclick="uranai(1)">おうし座</button>
+        <button onclick="uranai(2)">ふたご座</button>
+        <button onclick="uranai(3)">かに座</button>
+        <button onclick="uranai(4)">しし座</button>
+        <button onclick="uranai(5)">おとめ座</button>
+        <button onclick="uranai(6)">てんびん座</button>
+        <button onclick="uranai(7)">さそり座</button>
+        <button onclick="uranai(8)">いて座</button>
+        <button onclick="uranai(9)">やぎ座</button>
+        <button onclick="uranai(10)">みずがめ座</button>
+        <button onclick="uranai(11)">うお座</button>
+
+        <div id="result">
+            <p>ここに星座が表示されます</p>
+            <p>今日の運勢：ここに運勢が表示されます</p>
+            <p>ラッキーカラー：ここに色が表示されます</p>
+            <p>ラッキーアイテム：ここにアイテムが表示されます</p>
+        </div>
+
+        <button class="retry-button" onclick="location.reload()">もう一度占う</button>
+        
+        
+    </main>
+
+</body>
+
+</html>
